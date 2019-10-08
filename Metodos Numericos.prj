@@ -1,0 +1,96 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="4067435373" file="C:\Users\Migue\Desktop\Analisis numerico\Proyecto analisis\Metodos Numericos.prj" location="C:\Users\Migue\Desktop\Analisis numerico\Proyecto analisis" name="Metodos Numericos" target="target.mlapps" target-name="Package App">
+    <param.appname>Metodos Numericos</param.appname>
+    <param.authnamewatermark>Miguel Acevedo</param.authnamewatermark>
+    <param.email>Acebedo2524@gmail.com</param.email>
+    <param.company>AppPlus</param.company>
+    <param.icon />
+    <param.icons />
+    <param.summary>+57 3016997214 WhatsApp</param.summary>
+    <param.description>Esta es una aplicacion educativa, contsruida como proyecto para la asignatura Analisis numerico</param.description>
+    <param.screenshot>C:\Users\Migue\AppData\Local\Temp\tpcdeb1417_1841_4272_928a_de9ad9a7b393.png</param.screenshot>
+    <param.version>1.0</param.version>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.output>C:\Users\Migue\Desktop\Analisis numerico\Proyecto analisis</param.output>
+    <param.guid>bd69932e-00aa-4710-8677-ebdacc16a539</param.guid>
+    <unset>
+      <param.icon />
+      <param.icons />
+      <param.version />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+      <param.output />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\MetodosNumericos.mlapp</file>
+    </fileset.main>
+    <fileset.depfun />
+    <fileset.resources />
+    <fileset.package />
+    <build-deliverables>
+      <file location="C:\Users\Migue\Desktop\Analisis numerico" name="Proyecto analisis" optional="false">C:\Users\Migue\Desktop\Analisis numerico\Proyecto analisis</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2017b</root>
+      <toolboxes>
+        <toolbox name="fixedpoint" />
+        <toolbox name="matlabcoder" />
+        <toolbox name="matlabhdlcoder" />
+        <toolbox name="embeddedcoder" />
+        <toolbox name="gpucoder" />
+        <toolbox name="polyspacebugfinder" />
+      </toolboxes>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+      <toolbox>
+        <matlabhdlcoder>
+          <enabled>true</enabled>
+        </matlabhdlcoder>
+      </toolbox>
+      <toolbox>
+        <embeddedcoder>
+          <enabled>true</enabled>
+        </embeddedcoder>
+      </toolbox>
+      <toolbox>
+        <gpucoder>
+          <enabled>true</enabled>
+        </gpucoder>
+      </toolbox>
+      <toolbox>
+        <polyspacebugfinder>
+          <enabled>true</enabled>
+        </polyspacebugfinder>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
